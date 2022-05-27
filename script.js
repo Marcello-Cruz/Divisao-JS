@@ -1,7 +1,8 @@
-const numerador = Number(prompt("Digite o numerador"));
-const denominador = Number(prompt("Digite o denominador"));
 alert ('Digite o numerador');
 alert ('Digite o denominador')
+
+const numerador = Number(prompt("Digite o numerador"));
+const denominador = Number(prompt("Digite o denominador"));
 
 if (Object.is(numerador, NaN) || Object.is(denominador, NaN) ){
     alert("Informe apenas números");
@@ -9,5 +10,5 @@ if (Object.is(numerador, NaN) || Object.is(denominador, NaN) ){
     alert("Não é possível dividir por zero.");
 }else{
     const divisao = Number(numerador / denominador);
-    alert(`${numerador} dividido por ${denominador} é igual a ${divisao}.`)
+alert(`${numerador} dividido por ${denominador} é igual a ${divisao}.`)
 }
