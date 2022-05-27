@@ -1,6 +1,3 @@
-alert ('Digite o numerador');
-alert ('Digite o denominador')
-
 const numerador = Number(prompt("Digite o numerador"));
 const denominador = Number(prompt("Digite o denominador"));
 
